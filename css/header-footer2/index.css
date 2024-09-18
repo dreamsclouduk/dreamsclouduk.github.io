@@ -887,7 +887,7 @@ footer .footer__title svg {
         width: 100%;
         height: calc(100vh - 4rem);
         overflow-y: auto;
-        background-color: var(--white);
+        background-color: #2B2338;
         z-index: 500;
         margin-left: 0;
         align-items: flex-start;

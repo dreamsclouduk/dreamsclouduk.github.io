@@ -1766,11 +1766,17 @@
           <h2 class="title">Latest Franchises</h2>
           <div class="control">
             <svg class="arrow prev hide">
-              <use xlink:href="/homepage2/index.svg?cache=1&amp;v4458#chevron-left"></use>
-            </svg>
-            <svg class="arrow next">
-              <use xlink:href="/homepage2/index.svg?cache=1&amp;v4458#chevron-right"></use>
-            </svg>
+              <symbol id="chevron-left" viewBox="0 0 24 24">
+                  <path d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z"></path>
+              </symbol>
+              <use xlink:href="#chevron-left"></use>
+          </svg>
+          <svg class="arrow next">
+            <symbol id="chevron-right" viewBox="0 0 24 24">
+                <path d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z"></path>
+            </symbol>
+            <use xlink:href="#chevron-right"></use>
+        </svg>
           </div>
         </div>
         <div class="franchise__slider-wrapper shadow">
