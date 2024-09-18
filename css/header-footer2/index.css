@@ -263,8 +263,8 @@ body {
 }
 
 .btn-outline-blue {
-    border: 1px solid var(--dark);
-    color: var(--dark);
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
     background: 0 0
 }
 
@@ -333,19 +333,19 @@ body {
 }
 
 .btn-orange {
-    background: var(--orange)
+    background: #488CCB;
 }
 
 .btn-orange:hover {
-    background: var(--orange-d-1)
+    background: #14003F;
 }
 
 .btn-green {
-    background: var(--green)
+    background: #488CCB;
 }
 
 .btn-green:hover {
-    background: var(--green-d-1)
+    background: #14003F;
 }
 
 .btn-loading {
@@ -395,7 +395,7 @@ body {
 
 nav {
     height: 4rem;
-    background-color: var(--white);
+    background-color: #0A0118;
     position: relative;
     border-bottom: 1px solid #eee
 }
@@ -421,7 +421,7 @@ nav {
 }
 
 .navbar-menu a {
-    color: var(--dark)
+    color: #FFFFFF; 
 }
 
 .navbar-menu-myrightbiz {
@@ -454,14 +454,14 @@ nav {
 .navbar-menu-link svg {
     width: 1.5rem;
     margin-left: auto;
-    fill: var(--dark)
+    fill: #FFFFFF;
 }
 
 .navbar-menu-dropdown {
     position: absolute;
     top: 5rem;
     left: 0;
-    background-color: var(--white);
+    background-color: #2B2338;
     box-shadow: 0 2px 8px rgba(0, 0, 0, .15);
     border-radius: 0 0 8px 8px;
     padding: 10px;
@@ -494,7 +494,7 @@ li:hover .navbar-menu-dropdown {
 }
 
 .navbar-menu-dropdown-item:hover {
-    background-color: var(--white-d-1)
+    background-color: #0A0118;
 }
 
 .navbar-action {
@@ -505,7 +505,7 @@ li:hover .navbar-menu-dropdown {
 
 .navbar-action>* {
     margin: 0 .5rem;
-    --blue: var(--dark)
+    --blue: #FFFFFF;
 }
 
 .navbar-toggle-wrapper {
@@ -525,7 +525,7 @@ li:hover .navbar-menu-dropdown {
 .navbar-toggle span {
     width: 100%;
     height: 2px;
-    background-color: var(--dark);
+    background-color: #FFFFFF;
     animation: fadeReverse .5s ease forwards reverse
 }
 
@@ -534,7 +534,7 @@ li:hover .navbar-menu-dropdown {
     position: absolute;
     width: 100%;
     height: 2px;
-    background-color: var(--dark);
+    background-color: #FFFFFF;
     top: 0;
     left: 0;
     animation: beforeReverse .5s ease forwards reverse
@@ -545,7 +545,7 @@ li:hover .navbar-menu-dropdown {
     position: absolute;
     width: 100%;
     height: 2px;
-    background-color: var(--dark);
+    background-color: #FFFFFF;
     top: calc(100% - 2px);
     left: 0;
     animation: afterReverse .5s ease forwards reverse
@@ -762,7 +762,7 @@ footer .brand img {
 footer .footer__list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 32px;
+    grid-gap: 150px;
     padding-bottom: 40px
 }
 
@@ -785,6 +785,14 @@ footer .footer__item ul li a {
     white-space: nowrap;
     font-size: .875rem
 }
+.footer__item ul li a {
+    color: #488CCB !important;
+}
+
+.footer__item p a {
+    color: #94B8BB !important;
+}
+
 
 footer .footer__bottom {
     display: flex;
@@ -1297,7 +1305,7 @@ textarea~.clear-input {
     width: 2rem;
     height: 2rem;
     background: var(--white);
-    color: var(--red);
+    color: #488CCB;
     font-size: 1.5rem;
     display: flex;
     align-items: center;
@@ -2123,7 +2131,7 @@ select:valid~.form-label,
 }
 
 .text-dark {
-    color: var(--dark)
+    color: #FFFFFF;
 }
 
 .text-grey {
