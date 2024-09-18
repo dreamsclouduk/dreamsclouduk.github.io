@@ -991,7 +991,9 @@ footer .footer__title svg {
        
         
     }
-
+    .navbar-account svg {
+        display: grid!important;
+    }
     .navbar-account span {
         vertical-align: super !important;
     }
