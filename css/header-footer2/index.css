@@ -988,6 +988,7 @@ footer .footer__title svg {
     .navbar-account {
         display: block !important;
         align-self: auto;
+        vertical-align: super !important;
     }
 
     .navbar-toggle-wrapper {
