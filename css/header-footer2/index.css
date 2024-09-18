@@ -986,7 +986,7 @@ footer .footer__title svg {
     }
 
     .navbar-account {
-        display: none !important
+        display: block !important
     }
 
     .navbar-toggle-wrapper {
