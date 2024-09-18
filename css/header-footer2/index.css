@@ -939,7 +939,7 @@ footer .footer__title svg {
     }
 
     .navbar-menu-link:hover {
-        background-color: var(--white-d-1)
+        background-color: #2B2338;
     }
 
     .navbar-menu-link.active {
